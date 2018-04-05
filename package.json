@@ -1,7 +1,7 @@
 {
   "name": "test-react-ui-button",
   "main": "lib/Button.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "The test-react-ui-button component provides users a way to trigger actions in the UI.",
   "repository": {
     "type": "git",
