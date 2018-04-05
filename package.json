@@ -1,11 +1,11 @@
 {
-  "name": "react-ui-button",
+  "name": "test-react-ui-button",
   "main": "lib/Button.js",
   "version": "2.4.0",
-  "description": "The react-ui-button component provides users a way to trigger actions in the UI.",
+  "description": "The test-react-ui-button component provides users a way to trigger actions in the UI.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bjankord/react-ui-button.git"
+    "url": "git+https://github.com/bjankord/test-react-ui-button.git"
   },
   "keywords": [
     "Button",
@@ -17,9 +17,9 @@
   "author": "Cerner Corporation",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/bjankord/react-ui-button/issues"
+    "url": "https://github.com/bjankord/test-react-ui-button/issues"
   },
-  "homepage": "https://github.com/bjankord/react-ui-button#readme",
+  "homepage": "https://github.com/bjankord/test-react-ui-button#readme",
   "scripts": {
     "compile": "npm run compile:clean && npm run compile:build",
     "compile:clean": "rimraf lib",
