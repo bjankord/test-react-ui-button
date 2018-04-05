@@ -29,7 +29,10 @@
     "lint:scss": "stylelint src/**/*.scss",
     "test": "npm run test:jest && npm run test:wdio",
     "test:jest": "jest ./tests/jest/* --config ./jestconfig.json",
-    "test:wdio": "wdio ./wdio.conf.js"
+    "test:wdio": "wdio ./wdio.conf.js",
+    "release:major": "node scripts/release/release.js major",
+    "release:minor": "node scripts/release/release.js minor",
+    "release:patch": "node scripts/release/release.js patch"
   },
   "peerDependencies": {
     "react": "^16.2.0",
